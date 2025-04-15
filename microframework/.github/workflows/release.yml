@@ -1,0 +1,21 @@
+name: Release
+
+on:
+  pull_request:
+    branches: [ main ]
+    types: [ closed ]
+
+jobs:
+
+  release:
+    runs-on: ubuntu-latest
+    env:
+      RELEASE_TAG: 1.7.0
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Create a GitHub release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ env.RELEASE_TAG }}
+          name: Kûarasy - v${{ env.RELEASE_TAG }}
