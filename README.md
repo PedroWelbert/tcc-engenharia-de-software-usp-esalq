@@ -21,3 +21,5 @@ CodeIgniter: [docs](https://codeigniter.com/userguide3/#installation)
 Quaisquer dúvidas na instalação ou funcionamento dos diretórios, enviar um e-mail para:
 
 [pedrowelbert@gmail.com](mailto:pedrowelbert@gmail.com)
+
+Resultado Entrevistas com desenvolvedores: [link](https://docs.google.com/spreadsheets/d/1L7eTPSb9Tj3e21RbQka8FS9julNhfJV1yRnv_HsxOhA/edit?usp=sharing)
